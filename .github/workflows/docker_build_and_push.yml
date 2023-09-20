@@ -24,4 +24,4 @@ jobs:
       with:
         context: .
         push: true
-        tags: your_dockerhub_username/addon_name:latest
+        tags: dennisbell/entityscraper:latest
