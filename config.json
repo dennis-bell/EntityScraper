@@ -1,0 +1,21 @@
+{
+    "name": "Entity Scraper",
+    "version": "0.1.0",
+    "slug": "entityscraper",
+    "description": "Monitor and track the availability of entities in Home Assistant.",
+    "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+    "startup": "services",
+    "boot": "auto",
+    "options": {
+      "db_path": "/data/entityscraper.db"
+    },
+    "schema": {
+      "db_path": "str?"
+    },
+    "url": "https://github.com/dennis-bell/EntityScraper",
+    "image": "dennisbell/entityscraper",
+    "panel_admin": true,
+    "panel_icon": "mdi:database",
+    "panel_title": "Entity Scraper"
+  }
+  

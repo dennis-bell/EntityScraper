@@ -1,0 +1,9 @@
+{
+    "name": "Entity Scraper Add-on",
+    "url": "https://github.com/dennis-bell/EntityScraper",
+    "maintainer": "Dennis Bell <djcbell@gmail.com>",
+    "addons": [
+      "entityscraper"
+    ]
+  }
+  
